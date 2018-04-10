@@ -20,7 +20,7 @@ namespace SampleWebService.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value" + id;
+            return "value " + id;
         }
 
         // POST api/values
